@@ -1,4 +1,4 @@
-FROM postgres
+FROM postgres:9.6
 
 ADD dbschema.sql /docker-entrypoint-initdb.d
 
